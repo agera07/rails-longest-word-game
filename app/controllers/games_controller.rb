@@ -7,10 +7,8 @@ class GamesController < ApplicationController
 
   def score
     @new_word = params[:answer]
-
-
+    if @new_word.include?(sample)
+    end
   end
-
-
 
 end
